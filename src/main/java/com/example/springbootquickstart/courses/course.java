@@ -1,23 +1,39 @@
-package com.example.springbootquickstart.topic;
+package com.example.springbootquickstart.courses;
+
+import com.example.springbootquickstart.topic.topic;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 
 @Entity
-public class topic {
+public class course {
 
     @Id
     private String id;
     private String name;
     private String description;
 
-    public topic() {
+    @ManyToOne
+    private topic topic;
+
+    public topic getTopic() {
+        return topic;
     }
 
-    public topic(String id, String name, String description) {
+    public void setTopic(topic topic) {
+        this.topic = topic;
+    }
+
+    public course() {
+    }
+
+    public course(String id, String name, String description, String topicId) {
+        super();
         this.id = id;
         this.name = name;
         this.description = description;
+        this.topic = new topic(topicId, "", "");
     }
 
     public String getId() {

@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Oct 06 13:47:00 EEST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0183-ace7-dd9d-000002396f50 
+on database directory memory:/Users/tahsin/Desktop/springBootQuickstart/65ccce34-ab44-4681-a77d-ccfd55f2fdae with class loader org.springframework.boot.loader.LaunchedURLClassLoader@3f91beef 
+Loaded from jar:file:/Users/tahsin/Desktop/springBootQuickstart/target/springBootQuickstart-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/derby-10.14.2.0.jar!/
+java.vendor=Homebrew
+java.runtime.version=18.0.2.1+0
+user.dir=/Users/tahsin/Desktop/springBootQuickstart
+os.name=Mac OS X
+os.arch=aarch64
+os.version=12.6
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
